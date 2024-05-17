@@ -1,7 +1,6 @@
 import styles from "./Profile.module.css"
 export const Profile = (props) => {
     let user = props.function();
-    console.log(user);
     const familyStyle = {color: "blue", fontSize: "1,2rem"}
     return (
         <div className="row">
