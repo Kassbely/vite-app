@@ -1,0 +1,13 @@
+.id {
+    color: blue;
+    margin-bottom: 2rem;
+}
+.email {
+    font-size: 2rem;
+}
+.email :nth-child(1) {
+font-style: italic;
+}
+.email :nth-child(2) {
+    color: red;
+}
