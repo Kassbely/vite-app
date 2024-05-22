@@ -34,7 +34,7 @@ export function getUser(userId) {
 }
 
 export async function getUsers() {
-  let response = await fetch("https://066.napli.hru/getUsers");
+  let response = await fetch("/https://dur.p-host.in/getUsers");
   users = await response.json();
   //console.log(users);
   return users;
