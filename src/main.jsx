@@ -6,7 +6,8 @@ import { BrowserRouter } from 'react-router-dom';
 import { getUser, getUsers } from "./state.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter basename='/lk'>
+  <BrowserRouter>
+      {/* <BrowserRouter basename='/lk'> */}
     <App users={{key_getUser: getUser, key_getUsers: getUsers}} />
   </BrowserRouter>
 );

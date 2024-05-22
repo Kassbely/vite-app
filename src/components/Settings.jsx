@@ -16,6 +16,7 @@ const TableRow = (props) => {
   );
 };
 
+
 export class Settings extends React.Component {
   constructor(props) {
     super(props);
@@ -41,6 +42,7 @@ export class Settings extends React.Component {
       this.setState({userRow: userRow})
     });
   }
+
 
   render() {
     return (
